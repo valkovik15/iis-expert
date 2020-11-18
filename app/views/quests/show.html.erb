@@ -1,0 +1,14 @@
+<div>
+<%# <%= @quest.as_json%>
+
+<%# <br> %>
+<%# <%= @question.as_json %>
+<%= react_component('Question', {
+    options: @question&.options,
+    title: @question&.goal,
+    isSolved: @quest.goals_stack.empty?,
+    hasQuestion: !!@question,
+    probableAnswer:  (eval(@quest.context_stack.last || 'nil')&.values&.last || 'No answer yet'),
+    id: @quest.id}) %>
+</div>
+

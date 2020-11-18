@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  goals_stack: MyString
+  context_stack: MyString
+  rejected_rules: MyString
+
+two:
+  goals_stack: MyString
+  context_stack: MyString
+  rejected_rules: MyString

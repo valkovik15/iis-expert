@@ -1,0 +1,518 @@
+[
+  {
+    "if": [
+      {
+        "attr": "city",
+        "value": "Grodno"
+      }
+    ],
+    "then": {
+      "attr": "team",
+      "value": "Апостолы Ухтомского"
+    }
+  },
+  {
+    "if": [
+      {
+        "attr": "city",
+        "value": "Mahileu"
+      },
+      {
+        "attr": "won medals after 2015",
+        "value": "Yes"
+      }
+    ],
+    "then": {
+      "attr": "team",
+      "value": "Der Verlorene Haufe"
+    }
+  },
+  {
+    "if": [
+      {
+        "attr": "city",
+        "value": "Mahileu"
+      },
+      {
+        "attr": "won medals after 2015",
+        "value": "No"
+      }
+    ],
+    "then": {
+      "attr": "team",
+      "value": "Точка отсчёта"
+    }
+  },
+  {
+    "if": [
+      {
+        "attr": "city",
+        "value": "Minsk"
+      },
+      {
+        "attr": "total medals > 10",
+        "value": "Yes"
+      },
+      {
+        "attr": "won medals after 2012",
+        "value": "No"
+      }
+    ],
+    "then": {
+      "attr": "team",
+      "value": "Лавсановые волокна"
+    }
+  },
+  {
+    "if": [
+      {
+        "attr": "city",
+        "value": "Minsk"
+      },
+      {
+        "attr": "total medals > 10",
+        "value": "Yes"
+      },
+      {
+        "attr": "won medals after 2012",
+        "value": "No"
+      }
+    ],
+    "then": {
+      "attr": "team",
+      "value": "Лавсановые волокна"
+    }
+  },
+  {
+    "if": [
+      {
+        "attr": "city",
+        "value": "Minsk"
+      },
+      {
+        "attr": "total medals > 10",
+        "value": "Yes"
+      },
+      {
+        "attr": "won medals after 2015",
+        "value": "Yes"
+      },
+      {
+          "attr": "times CHGK won",
+          "value": "0"
+      }
+    ],
+    "then": {
+      "attr": "team",
+      "value": "Эстонский экспресс"
+    }
+  },
+  {
+    "if": [
+      {
+        "attr": "city",
+        "value": "Minsk"
+      },
+      {
+        "attr": "total medals > 10",
+        "value": "Yes"
+      },
+      {
+        "attr": "won medals after 2015",
+        "value": "Yes"
+      },
+      {
+          "attr": "times CHGK won",
+          "value": "1"
+      }
+    ],
+    "then": {
+      "attr": "team",
+      "value": "Боливария/The Alliance/На заре"
+    }
+  },
+  {
+    "if": [
+      {
+        "attr": "city",
+        "value": "Minsk"
+      },
+      {
+        "attr": "total medals > 10",
+        "value": "Yes"
+      },
+      {
+        "attr": "won medals after 2015",
+        "value": "Yes"
+      },
+      {
+          "attr": "times CHGK won",
+          "value": "2"
+      },
+      {
+          "attr": "won EQ",
+          "value": "Yes"
+      }
+    ],
+    "then": {
+      "attr": "team",
+      "value": "Очень изменилась за лето/Утро в Запретном лесу"
+    }
+  },
+  {
+    "if": [
+      {
+        "attr": "city",
+        "value": "Minsk"
+      },
+      {
+        "attr": "total medals > 10",
+        "value": "Yes"
+      },
+      {
+        "attr": "won medals after 2012",
+        "value": "Yes"
+      },
+      {
+        "attr": "won medals after 2015",
+        "value": "No"
+      },
+      {
+          "attr": "times CHGK won",
+          "value": "2"
+      },
+      {
+          "attr": "won EQ",
+          "value": "No"
+      }
+    ],
+    "then": {
+      "attr": "team",
+      "value": "Страпелька"
+    }
+  },
+  {
+    "if": [
+      {
+        "attr": "city",
+        "value": "Minsk"
+      },
+      {
+        "attr": "total medals > 10",
+        "value": "No"
+      },
+      {
+          "attr": "times CHGK won",
+          "value": "1"
+      }
+    ],
+    "then": {
+      "attr": "team",
+      "value": "Корпрусариум deluxe"
+    }
+  },
+  {
+    "if": [
+      {
+        "attr": "team",
+        "value": "Апостолы Ухтомского"
+      },
+      {
+        "attr": "gender",
+        "value": "F"
+      },
+      {
+          "attr": "jeopardy medals",
+          "value": "1"
+      }
+    ],
+    "then": {
+      "attr": "player",
+      "value": "Дарья Кузнецова"
+    }
+  },
+  {
+    "if": [
+      {
+        "attr": "team",
+        "value": "Апостолы Ухтомского"
+      },
+      {
+        "attr": "gender",
+        "value": "M"
+      },
+      {
+          "attr": "jeopardy medals",
+          "value": "0"
+      }
+    ],
+    "then": {
+      "attr": "player",
+      "value": "Дмитрий Шаркевич"
+    }
+  },
+  {
+    "if": [
+      {
+        "attr": "team",
+        "value": "Der Verlorene Haufe"
+      },
+      {
+          "attr": "gender",
+          "value": "M"
+      },
+      {
+          "attr": "jeopardy medals",
+          "value": "0"
+      }
+    ],
+    "then": {
+      "attr": "player",
+      "value": "Юрий Ананич"
+    }
+  },
+  {
+    "if": [
+      {
+        "attr": "team",
+        "value": "Точка отсчёта"
+      },
+      {
+          "attr": "gender",
+          "value": "M"
+      },
+      {
+          "attr": "jeopardy medals",
+          "value": "0"
+      }
+    ],
+    "then": {
+      "attr": "player",
+      "value": "Валерий Семенов"
+    }
+  },
+  {
+    "if": [
+      {
+        "attr": "team",
+        "value": "Лавсановые волокна"
+      },
+      {
+          "attr": "gender",
+          "value": "M"
+      },
+      {
+          "attr": "jeopardy medals",
+          "value": "2"
+      }
+    ],
+    "then": {
+      "attr": "player",
+      "value": "Иван Топчий"
+    }
+  },
+  {
+    "if": [
+      {
+        "attr": "team",
+        "value": "Лавсановые волокна"
+      },
+      {
+          "attr": "gender",
+          "value": "M"
+      },
+      {
+          "attr": "jeopardy medals",
+          "value": "1"
+      }
+    ],
+    "then": {
+      "attr": "player",
+      "value": "Дмитрий Старикович"
+    }
+  },
+  {
+    "if": [
+        {
+          "attr": "team",
+          "value": "Эстонский экспресс"
+        },
+        {
+            "attr": "gender",
+            "value": "F"
+        },
+        {
+            "attr": "jeopardy medals",
+            "value": "0"
+        }
+      ],
+      "then": {
+        "attr": "player",
+        "value": "Дарьяна Добрянская"
+      }
+  },
+  {
+    "if": [
+        {
+          "attr": "team",
+          "value": "Эстонский экспресс"
+        },
+        {
+            "attr": "gender",
+            "value": "M"
+        },
+        {
+            "attr": "jeopardy medals",
+            "value": "0"
+        }
+      ],
+      "then": {
+        "attr": "player",
+        "value": "Виктор Реут"
+      }
+  },
+  {
+    "if": [
+        {
+          "attr": "team",
+          "value": "Боливария/The Alliance/На заре"
+        },
+        {
+            "attr": "gender",
+            "value": "M"
+        },
+        {
+            "attr": "jeopardy medals",
+            "value": "1"
+        }
+      ],
+      "then": {
+        "attr": "player",
+        "value": "Станислав Адаскевич"
+      }
+  },
+  {
+    "if": [
+        {
+          "attr": "team",
+          "value": "Боливария/The Alliance/На заре"
+        },
+        {
+            "attr": "gender",
+            "value": "F"
+        },
+        {
+            "attr": "jeopardy medals",
+            "value": "0"
+        }
+      ],
+      "then": {
+        "attr": "player",
+        "value": "Елизавета Лысенко"
+      }
+  },
+  {
+    "if": [
+        {
+          "attr": "team",
+          "value": "Очень изменилась за лето/Утро в Запретном лесу"
+        },
+        {
+            "attr": "gender",
+            "value": "M"
+        },
+        {
+            "attr": "jeopardy medals",
+            "value": "2"
+        }
+      ],
+      "then": {
+        "attr": "player",
+        "value": "Александр Морозов"
+      }
+  },
+  {
+    "if": [
+        {
+          "attr": "team",
+          "value": "Очень изменилась за лето/Утро в Запретном лесу"
+        },
+        {
+            "attr": "gender",
+            "value": "F"
+        },
+        {
+            "attr": "jeopardy medals",
+            "value": "0"
+        }
+      ],
+      "then": {
+        "attr": "player",
+        "value": "Ирина Бурак"
+      }
+  },
+  {
+    "if": [
+        {
+          "attr": "team",
+          "value": "Страпелька"
+        },
+        {
+            "attr": "gender",
+            "value": "M"
+        },
+        {
+            "attr": "jeopardy medals",
+            "value": "2"
+        }
+      ],
+      "then": {
+        "attr": "player",
+        "value": "Юрий Разумов"
+      }
+  },
+  {
+    "if": [
+        {
+          "attr": "team",
+          "value": "Корпрусариум deluxe"
+        },
+        {
+            "attr": "gender",
+            "value": "M"
+        },
+        {
+            "attr": "jeopardy medals",
+            "value": "2"
+        }
+      ],
+      "then": {
+        "attr": "player",
+        "value": "Никита Шевела"
+      }
+  },
+  {
+    "if": [
+      {
+        "attr": "won medals after 2015",
+        "value": "Yes"
+      }
+    ],
+    "then": {
+      "attr": "won medals after 2012",
+      "value": "Yes"
+    }
+  },
+  {
+    "if": [
+      {
+        "attr": "won medals after 2012",
+        "value": "No"
+      }
+    ],
+    "then": {
+      "attr": "won medals after 2015",
+      "value": "No"
+    }
+  }
+]
